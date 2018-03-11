@@ -1,0 +1,6 @@
+server:
+  port: 8080
+  servlet.context-path: /
+management.endpoints.web:
+  base-path: /manage
+  exposure.include: "*"
